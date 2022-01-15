@@ -1,0 +1,915 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            overflow-x: hidden;
+        }
+        /* Hero Starts */
+        
+        .Hero {
+            background-color: rgb(51, 11, 78);
+            width: 100%;
+            height: 800px;
+            overflow-x: hidden;
+        }
+        
+        .Navbar {
+            float: right;
+            padding: 10px;
+        }
+        
+        .topnav {
+            padding-top: 30px;
+            padding-left: 85px;
+            padding-right: 85px;
+            font-family: "Muli", "Roboto", sans-serif;
+        }
+        
+        .topnav .Logo {
+            font-size: 35px;
+            margin-left: -30px;
+        }
+        
+        .topnav #Button {
+            border: 2px solid #fff;
+            text-align: center;
+            width: 220px;
+            padding: 15px 7px 15px 7px;
+            border-radius: 14px;
+            margin-top: -5px;
+        }
+        
+        .topnav a {
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: bold;
+            color: #fff;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .navLink {
+            opacity: .5;
+        }
+        
+        .topnav i {
+            display: none;
+            color: #fff;
+            float: right;
+            font-size: 30px;
+            font-weight: 100;
+        }
+        /* Semi-hero part */
+        
+        .Semi-hero {
+            display: grid;
+            grid-template-columns: 77% 20%;
+            font-family: "Muli", "Roboto", sans-serif;
+            padding-top: 1%;
+        }
+        
+        .Semi-hero-text {
+            padding-left: 75px;
+            padding-right: 35px;
+            margin-top: 70px;
+        }
+        
+        .Semi-hero-text .Header1 {
+            font-size: 70px;
+            color: #fff;
+            line-height: 70px;
+        }
+        
+        .Span1 {
+            color: rgb(249, 173, 109);
+        }
+        
+        .Semi-hero-text .Paragraph1 {
+            font-size: 22px;
+            color: #fff;
+            opacity: .6;
+            font-weight: bold;
+            margin-top: 30px;
+            width: 60%;
+        }
+        
+        .Semi-hero-img {
+            padding-top: 50px;
+        }
+        /* Semi-buttons */
+        
+        .Semi-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-top: 80px;
+            width: 67%;
+            grid-gap: 3px;
+        }
+        
+        .Semi-buttons-img1 {
+            width: 170px;
+            height: 60px;
+        }
+        /* Hero End */
+        
+        .Hero2-0 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 0px;
+            width: 100%;
+            text-align: center;
+            align-self: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            overflow-x: hidden;
+        }
+        
+        .Hero-2-0-div {
+            margin-left: 60px;
+        }
+        
+        .Hero2-0-h2 {
+            letter-spacing: -0.06em;
+            font-weight: 700;
+            font-size: 36px;
+            display: flex;
+            text-align: center;
+            margin: 0 auto;
+            padding: 50px;
+            color: #452B58;
+            font-family: "Muli", "Roboto", sans-serif;
+            width: 70%;
+        }
+        
+        .Hero2-0-h1 {
+            letter-spacing: -0.06em;
+            font-weight: 700;
+            font-size: 45px;
+            text-align: center;
+            align-self: center;
+            color: rgb(234, 112, 82);
+            margin-top: -30px;
+            text-shadow: rgb(196, 196, 196) 1px 1px;
+            font-family: "Muli", "Roboto", sans-serif;
+        }
+        
+        .Hero2-0-img1 {
+            width: 580px;
+            height: 50px;
+            text-align: center;
+            align-self: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-left: 30px;
+        }
+        
+        .Hero2-0-div {
+            width: 100%;
+        }
+        
+        .Hero2-0-img-div {
+            width: 100%;
+        }
+        
+        .Hero-2-0-img {
+            float: left;
+        }
+        
+        .Hero2-0-p {
+            font-size: 20px;
+            width: 70%;
+            margin: 0 auto;
+            font-family: Muli, Roboto, sans-serif;
+        }
+        /* Hero2.0 Starts */
+        /* Hero3-0 Start*/
+        
+        .Hero3-0 {
+            background-color: rgb(242, 242, 251);
+            margin: 0 auto;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            width: 100%;
+            justify-content: center;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        
+        .Hero3-0-img {
+            width: 480px;
+            height: 400px;
+        }
+        
+        .Hero3-0-text {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 70px;
+            font-family: "Muli", "Roboto", sans-serif;
+            color: rgb(48, 20, 70);
+            font-weight: bold;
+            font-size: 52px;
+            width: 59%;
+            display: flex;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 70px;
+        }
+        
+        .Hero3-0-p {
+            font-family: Arial;
+            color: rgb(48, 20, 70);
+            font-size: 24px;
+            width: 48%;
+            display: flex;
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 30px;
+            margin-bottom: 30px;
+            line-height: 32px;
+        }
+        
+        .Hero3-0-btn {
+            border: none;
+            color: rgb(255, 255, 255);
+            background-color: rgb(48, 20, 70);
+            padding: 22px 40px;
+            font-family: Muli, Roboto, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 16px;
+        }
+        /* Hero3-0 End */
+        /* Hero4-0 */
+        
+        .Hero4-0 {
+            padding: 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            padding-left: 250px;
+            padding-right: 250px;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        
+        .Hero4-0-img-1 {
+            justify-content: center;
+            margin-top: 150px;
+        }
+        
+        .Hero4-0-div-1 {
+            width: 100%;
+            letter-spacing: -0.04em;
+            text-align: left;
+            margin: 0 auto;
+        }
+        
+        .Hero4-0 p {
+            width: 80%;
+        }
+        
+        .Hero4-0 h3 {
+            width: 80%;
+        }
+        
+        .Hero4-0-text {
+            margin-top: 100px;
+            color: rgb(48, 20, 70);
+            font-weight: 600;
+            font-size: 53px;
+            font-family: Muli, Roboto, sans-serif;
+        }
+        
+        .Hero4-0-p {
+            font-family: Arial;
+            color: rgb(93, 94, 88);
+            font-size: 24px;
+            padding-top: 30px;
+            margin-bottom: 30px;
+            line-height: 32px;
+        }
+        /* Hero4-0 Ends */
+        /* media Query */
+        
+        @media screen and (max-width: 1200px) {
+            /* .Hero1-0-div  */
+            .topnav {
+                padding-top: 50px;
+            }
+            .Hero {
+                background-color: rgb(51, 11, 78);
+                width: 100%;
+                height: 130vh;
+                padding-top: 20px;
+            }
+            .navLink {
+                letter-spacing: .1px;
+            }
+            .topnav a {
+                font-size: 17.5px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .topnav .Logo {
+                font-size: 33px;
+            }
+            .Semi-hero {
+                display: block;
+                text-align: center;
+                margin: 0 auto;
+            }
+            .Semi-hero-text {
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+            .Semi-hero-text .Header1 {
+                font-size: 67px;
+            }
+            .Semi-hero-text .Paragraph1 {
+                display: block;
+                text-align: center;
+                width: 100%;
+            }
+            .Semi-buttons {
+                position: relative;
+                display: grid;
+                grid-template-columns: 9fr 1fr 9fr;
+                padding-top: 80px;
+                margin: 0 auto;
+                width: 100%;
+            }
+            #Semi-btn1 {
+                float: right;
+            }
+            #Semi-btn3 {
+                float: left;
+            }
+            /* .Hero2-0 */
+            .Hero2-0 {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 0px;
+                width: 100%;
+                text-align: center;
+                align-self: center;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                overflow-x: hidden;
+            }
+            .Hero-2-0-div {
+                margin-left: 60px;
+            }
+            .Hero2-0-h2 {
+                letter-spacing: -0.06em;
+                font-weight: 700;
+                font-size: 36px;
+                display: flex;
+                text-align: center;
+                margin: 0 auto;
+                padding: 50px;
+                color: #452B58;
+                font-family: "Muli", "Roboto", sans-serif;
+                width: 70%;
+            }
+            .Hero2-0-h1 {
+                letter-spacing: -0.06em;
+                font-weight: 700;
+                font-size: 45px;
+                text-align: center;
+                align-self: center;
+                color: rgb(234, 112, 82);
+                margin-top: -30px;
+                text-shadow: rgb(196, 196, 196) 1px 1px;
+                font-family: "Muli", "Roboto", sans-serif;
+            }
+            .Hero2-0-img1 {
+                width: 580px;
+                height: 50px;
+                text-align: center;
+                align-self: center;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                margin-left: 30px;
+            }
+            .Hero2-0-div {
+                width: 100%;
+            }
+            .Hero2-0-img-div {
+                width: 100%;
+            }
+            .Hero-2-0-img {
+                float: left;
+            }
+            .Hero2-0-p {
+                font-size: 20px;
+                width: 70%;
+                margin: 0 auto;
+                font-family: Muli, Roboto, sans-serif;
+            }
+            /* Hero2-0 Ends */
+            /* Hero3-0 */
+            .Hero3-0-text {
+                font-size: 49px;
+                width: 59%;
+                line-height: 48px;
+            }
+            .Hero3-0-p {
+                font-family: sans-serif;
+                color: rgb(48, 20, 70);
+                font-size: 23px;
+                width: 54%;
+            }
+        }
+        
+        @media screen and (max-width: 1150px) {
+            .Hero {
+                background-color: rgb(51, 11, 78);
+                width: 100%;
+            }
+            .Navbar {
+                display: none;
+            }
+            .topnav i {
+                display: block;
+                color: #fff;
+                padding-top: 10px;
+            }
+            .topnav {
+                display: block;
+                color: #fff;
+                padding-top: 10px;
+                padding-top: 30px;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            .topnav .Logo {
+                font-size: 30px;
+            }
+            .Semi-hero-text {
+                padding-left: 55px;
+                padding-right: 55px;
+            }
+            .Semi-hero-text .Header1 {
+                font-size: 63px;
+                line-height: 59px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            .Semi-hero-text .Paragraph1 {
+                font-size: 21px;
+            }
+            .Semi-buttons {
+                position: relative;
+                display: grid;
+                grid-template-columns: 9fr 1fr 9fr;
+                padding-top: 80px;
+                margin: 0 auto;
+                width: 100%;
+            }
+            #Semi-btn1 {
+                float: right;
+            }
+            #Semi-btn3 {
+                float: left;
+            }
+            /* Hero2-0 */
+            .Hero2-0 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 32px;
+                width: 100%;
+                text-align: center;
+                align-self: center;
+                margin-top: 100px;
+                overflow-x: hidden;
+            }
+            .Hero2-0-h2 {
+                letter-spacing: -0.06em;
+                font-weight: 700;
+                font-size: 45px;
+                display: flex;
+                text-align: center;
+                margin: 0 auto;
+                padding: 50px;
+                color: #452B58;
+                font-family: "Muli", "Roboto", sans-serif;
+                width: 800px;
+            }
+            .Hero2-0-h1 {
+                letter-spacing: -0.06em;
+                font-weight: 700;
+                font-size: 55px;
+                text-align: center;
+                align-self: center;
+                color: rgb(234, 112, 82);
+                margin-top: -30px;
+                text-shadow: rgb(196, 196, 196) 1px 1px;
+                font-family: "Muli", "Roboto", sans-serif;
+            }
+            .Hero2-0-p {
+                font-size: 22px;
+                width: 50%;
+                margin: 0 auto;
+                padding-top: 12px;
+            }
+            /* End Hero2-0 */
+            /* Hero3-0 Starts*/
+            .Hero3-0-text {
+                font-size: 46px;
+                width: 58%;
+                line-height: 44px;
+            }
+            .Hero3-0-p {
+                font-family: sans-serif;
+                color: rgb(48, 20, 70);
+                font-size: 24px;
+                width: 53%;
+            }
+            /* Hero3-0 Ends*/
+            /* Hero4-0 Starts*/
+            .Hero4-0 {
+                padding: 100px;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+            }
+            /* Hero4-0 Ends*/
+        }
+        
+        @media screen and (max-width: 1090px) {
+            .Hero2-0 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 32px;
+                width: 100%;
+                text-align: center;
+                align-self: center;
+                margin-top: 100px;
+                overflow-x: hidden;
+            }
+            .Hero-2-0-div {
+                margin-left: 60px;
+            }
+            .Hero2-0-h2 {
+                letter-spacing: -0.06em;
+                font-weight: 700;
+                font-size: 45px;
+                display: flex;
+                text-align: center;
+                margin: 0 auto;
+                padding: 50px;
+                color: #452B58;
+                font-family: "Muli", "Roboto", sans-serif;
+                width: 800px;
+            }
+            .Hero2-0-h1 {
+                letter-spacing: -0.06em;
+                font-weight: 700;
+                font-size: 55px;
+                text-align: center;
+                align-self: center;
+                color: rgb(234, 112, 82);
+                margin-top: -30px;
+                text-shadow: rgb(196, 196, 196) 1px 1px;
+                font-family: "Muli", "Roboto", sans-serif;
+            }
+            .Hero2-0-img1 {
+                width: 580px;
+                height: 50px;
+                text-align: center;
+                align-self: center;
+                margin-top: 25px;
+                margin-bottom: 2px;
+            }
+            .Hero2-0-img-div {
+                width: 100%;
+                height: 500px;
+            }
+            .Hero2-0-p {
+                font-size: 20px;
+                width: 50%;
+                margin: 0 auto;
+                padding-top: 0px;
+            }
+            /* Hero2.0 Starts */
+        }
+        
+        @media screen and (max-width: 1060px) {
+            /* Her3-0 */
+            .Hero3-0-text {
+                font-size: 46px;
+                width: 62%;
+                line-height: 44px;
+            }
+            .Hero3-0-p {
+                font-family: sans-serif;
+                color: rgb(48, 20, 70);
+                font-size: 22px;
+                width: 50%;
+            }
+        }
+        
+        @media screen and (max-width: 1051px) {
+            /* Her3-0 */
+            .Hero3-0-text {
+                font-size: 46px;
+                width: 64%;
+                line-height: 44px;
+            }
+            .Hero3-0-p {
+                font-family: sans-serif;
+                color: rgb(48, 20, 70);
+                font-size: 22px;
+                width: 59%;
+            }
+        }
+        
+        @media screen and (max-width: 930px) {
+            /* Hero2-0  */
+            .Hero2-0 {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 0px;
+                width: 100%;
+                text-align: center;
+                align-self: center;
+                overflow-x: hidden;
+            }
+            .Hero-2-0-div {
+                margin-left: 60px;
+            }
+            .Hero2-0-h2 {
+                letter-spacing: -0.06em;
+                font-weight: 700;
+                font-size: 36px;
+                display: flex;
+                text-align: center;
+                margin: 0 auto;
+                padding: 50px;
+                color: #452B58;
+                font-family: "Muli", "Roboto", sans-serif;
+                width: 70%;
+            }
+            .Hero2-0-h1 {
+                letter-spacing: -0.06em;
+                font-weight: 700;
+                font-size: 45px;
+                text-align: center;
+                align-self: center;
+                color: rgb(234, 112, 82);
+                margin-top: -30px;
+                text-shadow: rgb(196, 196, 196) 1px 1px;
+                font-family: "Muli", "Roboto", sans-serif;
+            }
+            .Hero2-0-img1 {
+                width: 580px;
+                height: 50px;
+                text-align: center;
+                align-self: center;
+                margin-top: 25px;
+                margin-bottom: 25px;
+                margin-left: 10px;
+            }
+            .Hero2-0-div {
+                width: 100%;
+            }
+            .Hero2-0-img-div {
+                width: 100%;
+            }
+            .Hero-2-0-img {
+                float: left;
+            }
+            .Hero2-0-p {
+                font-size: 20px;
+                width: 70%;
+                margin: 0 auto;
+                font-family: Muli, Roboto, sans-serif;
+            }
+            /* Hero2-0 Ends */
+            /* Hero3-0 */
+            .Hero3-0-text {
+                font-size: 46px;
+                width: 70%;
+                line-height: 49px;
+            }
+            .Hero3-0-p {
+                font-family: sans-serif;
+                color: rgb(48, 20, 70);
+                font-size: 24px;
+                width: 64%;
+            }
+            /* Hero3-0 Ends */
+        }
+        
+        @media screen and (max-width: 870px) {
+            /* Her3-0 */
+            .Hero3-0-text {
+                font-size: 46px;
+                width: 74%;
+                line-height: 44px;
+            }
+            .Hero3-0-p {
+                font-family: sans-serif;
+                color: rgb(48, 20, 70);
+                font-size: 23px;
+                width: 67%;
+            }
+        }
+        
+        @media screen and (max-width: 820px) {
+            .Hero {
+                background-color: rgb(51, 11, 78);
+                width: 100%;
+            }
+            .topnav {
+                padding-top: 30px;
+            }
+            .Semi-hero-text .Header1 {
+                font-size: 55px;
+                line-height: 60px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .Semi-hero-text .Paragraph1 {
+                font-size: 21px;
+            }
+            /* Her3-0 */
+            .Hero3-0-text {
+                font-size: 40px;
+                width: 68%;
+                line-height: 44px;
+            }
+            .Hero3-0-p {
+                font-family: sans-serif;
+                color: rgb(48, 20, 70);
+                font-size: 22px;
+                width: 66%;
+            }
+        }
+        
+        @media screen and (max-width: 780px) {
+            /* Her3-0 */
+            .Hero3-0-text {
+                font-size: 39px;
+                width: 78%;
+                line-height: 44px;
+            }
+            .Hero3-0-p {
+                font-family: sans-serif;
+                color: rgb(48, 20, 70);
+                font-size: 21px;
+                width: 78%;
+            }
+        }
+        
+        @media screen and (max-width: 700px) {
+            .Hero {
+                background-color: rgb(51, 11, 78);
+                width: 100%;
+                padding-top: 20px;
+            }
+            .topnav {
+                padding-top: 30px;
+            }
+            .Semi-hero-text {
+                padding-left: 35px;
+                padding-right: 35px;
+            }
+            .Semi-hero-text .Header1 {
+                font-size: 52px;
+                line-height: 47px;
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+            .Semi-hero-text .Paragraph1 {
+                font-size: 20px;
+                font-size: 21px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .Semi-buttons {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                width: 100%;
+                margin: 0 auto;
+            }
+            .Semi-buttons-img1 {
+                width: 150px;
+                height: 55px;
+            }
+        }
+        
+        @media screen and (max-width: 670px) {
+            /* Her3-0 */
+            .Hero3-0-text {
+                font-size: 37px;
+                width: 83%;
+                line-height: 44px;
+            }
+            .Hero3-0-p {
+                font-family: sans-serif;
+                color: rgb(48, 20, 70);
+                font-size: 21px;
+                width: 80%;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            .Hero {
+                background-color: rgb(51, 11, 78);
+                width: 100%;
+                padding-top: 20px;
+            }
+            .topnav {
+                padding-top: 10px;
+            }
+            .Semi-hero-text {
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            .Semi-hero-text .Header1 {
+                font-size: 42px;
+                line-height: 43px;
+            }
+            .Semi-hero-text .Paragraph1 {
+                font-size: 20px;
+                font-size: 21px;
+                padding-left: 3px;
+                padding-right: 3px;
+            }
+            .Hero {
+                background-color: rgb(51, 11, 78);
+            }
+            img {
+                width: 80%;
+                height: 24%;
+            }
+            .Semi-buttons {
+                display: grid;
+                grid-template-columns: 1fr;
+                margin: 0 auto;
+                width: 40%;
+            }
+            .Semi-buttons-img1 {
+                width: 180px;
+                height: 60px;
+            }
+            /* Her3-0 */
+            .Hero3-0-text {
+                font-size: 34px;
+                width: 99%;
+                line-height: 44px;
+            }
+            .Hero3-0-p {
+                font-family: sans-serif;
+                color: rgb(48, 20, 70);
+                font-size: 20px;
+                width: 79%;
+            }
+        }
+        
+        @media screen and (max-width: 305px) {
+            .Semi-buttons {
+                display: grid;
+                grid-template-columns: 1fr;
+                margin: 0 auto;
+                width: 60%;
+            }
+        }
+        
+        @media screen and (max-width: 300px) {
+            .Hero {
+                background-color: rgb(51, 11, 78);
+                width: 100%;
+                padding-top: 20px;
+            }
+            .topnav {
+                padding-top: 30px;
+            }
+            .Semi-hero-text {
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+            .Semi-hero-text .Header1 {
+                font-size: 38px;
+                line-height: 43px;
+            }
+            img {
+                width: 100%;
+                height: 20%;
+            }
+            .Semi-buttons {
+                display: grid;
+                grid-template-columns: 1fr;
+                margin: 0 auto;
+                width: 60%;
+            }
+            .Semi-buttons-img1 {
+                width: 180px;
+                height: 60px;
+            }
+        }
